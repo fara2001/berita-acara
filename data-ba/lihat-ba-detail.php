@@ -12,7 +12,7 @@ include '../koneksi.php';
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Pencarian Data BA</title>
+    <title>Pencarian Data BA</title> 
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -112,18 +112,24 @@ $perusahaan = $data['perusahaan'];
     ?>
 
         <h1 align="center">Lihat Data BA</h1>
-
-        <form action="cetak-ba.php" method="post" enctype="multipart/form-data">
-            <input type="hidden" name="perusahaan" value="<?php echo $data['perusahaan']; ?>">
-                    <input type="hidden" name="id" value="<?php echo $data['id']; ?>">
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="ba" id="pasang-baru" value="Pasang Baru" <?php if($data['ba'] == 'Pasang Baru'){ echo "checked"; } ?>>
-                        <label class="form-check-label" for="pasang-baru"> New Installation </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="ba" id="deaktivasi" value="De-Aktivasi" <?php if($data['ba'] == 'De-Aktivasi'){ echo "checked"; } ?>>
-                        <label class="form-check-label" for="deaktivasi"> De-activation </label>
-                    </div>
+<form action="cetak-ba.php" method="post" enctype="multipart/form-data">
+    <fieldset disabled>
+        <input type="hidden" name="perusahaan" value="<?php echo $data['perusahaan']; ?>">
+        <input type="hidden" name="id" value="<?php echo $data['id']; ?>">
+        
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="ba" id="pasang-baru" value="Pasang Baru" 
+                <?php if($data['ba'] == 'Pasang Baru'){ echo "checked"; } ?>>
+            <label class="form-check-label" for="pasang-baru"> New Installation </label>
+        </div>
+        
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="ba" id="deaktivasi" value="De-Aktivasi" 
+                <?php if($data['ba'] == 'De-Aktivasi'){ echo "checked"; } ?>>
+            <label class="form-check-label" for="deaktivasi"> De-activation </label>
+        </div>
+    </fieldset>
+</form>
                     <div class="form-group">
                         <label for="perusahaan">Perusahaan:</label>
                         <select class="form-control" name="perusahaan" id="perusahaan" disabled>
@@ -193,8 +199,8 @@ $perusahaan = $data['perusahaan'];
                     </div>
                     <div class="form-group">
                         <label for="jabatan">Jabatan:</label>
-                        <select name="jabatan" id="jabatan" class="form-select" required>
-                        <option value="Manager Operation" <?php if ($data['jabatan'] == "Manager Operation") { echo "selected"; } ?>>Manager Operation</option>
+                        <select name="jabatan" id="jabatan" class="form-select" required disabled>
+                        <option value="Manager Operation" <?php if ($data['jabatan'] == "Manager Operation") { echo "selected"; } ?>disabled>Manager Operation</option>
                     </select>
                     </div>
                     <div class="form-group">
@@ -203,7 +209,7 @@ $perusahaan = $data['perusahaan'];
                     </div>
                     <div class="form-group">
                         <label for="site_engineer_jabatan">Jabatan:</label>
-                    <select name="site_engineer_jabatan" id="site_engineer_jabatan" class="form-select" required>
+                    <select name="site_engineer_jabatan" id="site_engineer_jabatan" class="form-select" required disabled>
                         <option value="Network Operation Center" <?php if ($data['site_engineer_jabatan'] == "Network Operation Center") { echo "selected"; } ?>>Network Operation Center</option>
                         <option value="Project Manager" <?php if ($data['site_engineer_jabatan'] == "Project Manager") { echo "selected"; } ?>>Project Manager</option>
                         <option value="Technical Support" <?php if ($data['site_engineer_jabatan'] == "Technical Support") { echo "selected"; } ?>>Technical Support</option>
@@ -242,7 +248,7 @@ $perusahaan = $data['perusahaan'];
             }
         }
         ?>
-                        <input type="file" class="form-control" id="lampiran_gambar2" name="lampiran_gambar2[]" multiple onchange="previewImages()">
+                        
                         <input type="hidden" name="lampiran_gambar" class="form-control" id="" value="<?php echo $data['lampiran_gambar']; ?>">
                         <div id="preview" style="margin-top: 10px;"></div>
                         Sesudah :

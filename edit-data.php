@@ -35,6 +35,7 @@ if (isset($_POST['submit'])) {
     $server = $_POST['server'];
     $status = $_POST['status'];
 
+
     // Query untuk update data
     $update_query = "UPDATE data_nomor SET 
         geo_number = '$geo_number', 
@@ -81,14 +82,19 @@ $conn->close();
                 <input type="text" id="toll_free_number" name="toll_free_number" value="<?php echo $row['toll_free_number']; ?>" class="form-control" required>
             </div>
             
-            <div class="mb-3">
-                <label for="number_translasi" class="form-label">Number Translasi:</label>
-                <select id="number_translasi" name="number_translasi" class="form-select" required>
-                    <option value="Yes">Yes</option>
-                    <option value="No">No</option>
-                </select>
-            </div>
-            
+            <?php
+// Simpan nilai yang dipilih sebelumnya (jika ada)
+// $number_translasi = $_POST['number_translasi'] ?? 'No'; // Default 'No' jika form belum dikirim
+?>
+
+<div class="mb-3">
+    <label for="number_translasi" class="form-label">Number Translasi:</label>
+    <select id="number_translasi" name="number_translasi" class="form-select" required>
+        <option value="Yes" <?php echo ($row['number_translasi'] == 'Yes') ? 'selected' : ''; ?>>Yes</option>
+        <option value="No" <?php echo ($row['number_translasi'] == 'No') ? 'selected' : ''; ?>>No</option>
+    </select>
+</div>
+
             <div class="mb-3">
                 <label for="customer" class="form-label">Customer:</label>
                 <input type="text" id="customer" name="customer" value="<?php echo $row['customer']; ?>" class="form-control" required>
