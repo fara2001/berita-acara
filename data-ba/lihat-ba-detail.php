@@ -113,31 +113,26 @@ $perusahaan = $data['perusahaan'];
 
         <h1 align="center">Lihat Data BA</h1>
 <form action="cetak-ba.php" method="post" enctype="multipart/form-data">
-    <fieldset disabled>
+    <fieldset>
         <input type="hidden" name="perusahaan" value="<?php echo $data['perusahaan']; ?>">
         <input type="hidden" name="id" value="<?php echo $data['id']; ?>">
         
-        <div class="form-check">
-            <input class="form-check-input" type="radio" name="ba" id="pasang-baru" value="Pasang Baru" 
-                <?php if($data['ba'] == 'Pasang Baru'){ echo "checked"; } ?>>
-            <label class="form-check-label" for="pasang-baru"> New Installation </label>
-        </div>
-        
-        <div class="form-check">
-            <input class="form-check-input" type="radio" name="ba" id="deaktivasi" value="De-Aktivasi" 
-                <?php if($data['ba'] == 'De-Aktivasi'){ echo "checked"; } ?>>
-            <label class="form-check-label" for="deaktivasi"> De-activation </label>
-        </div>
-    </fieldset>
+<!-- Tipe Instalasi -->
+<div class="form-group">
+    <label for="tipe-instalasi" class="font-weight-bold">Tipe Instalasi</label>
+    <input type="text" class="form-control" name="ba" id="tipe-instalasi" 
+        value="<?php echo $data['ba'] == 'Pasang Baru' ? 'New Inslatallation' : ($data['ba'] == 'De-Aktivasi' ? 'De-Aktivasi' : ''); ?>" 
+        readonly>
+</div>
+
+
+
+    <!-- Perusahaan -->
+    <div class="form-group">
+        <label for="perusahaan">Perusahaan:</label>
+        <input type="text" class="form-control" name="perusahaan" id="perusahaan" value="<?php echo $data['perusahaan']; ?>" readonly>
+    </div>
 </form>
-                    <div class="form-group">
-                        <label for="perusahaan">Perusahaan:</label>
-                        <select class="form-control" name="perusahaan" id="perusahaan" disabled>
-                            <option value="PT DIGITAL SATELLITE INDONESIA" <?php if($data['perusahaan'] == 'PT DIGITAL SATELLITE INDONESIA'){ echo "selected"; } ?>>PT DIGITAL SATELLITE INDONESIA</option>
-                            <option value="PT DIGITAL WIRELESS INDONESIA" <?php if($data['perusahaan'] == 'PT DIGITAL WIRELESS INDONESIA'){ echo "selected"; } ?>>PT DIGITAL WIRELESS INDONESIA</option>
-                            <option value="PT DIGITAL KOMUNIKASI LINTAS SARANA" <?php if($data['perusahaan'] == 'PT DIGITAL KOMUNIKASI LINTAS SARANA'){ echo "selected"; } ?>>PT DIGITAL KOMUNIKASI LINTAS SARANA</option>
-                        </select>
-                    </div>
                     <div class="form-group">
                         <label for="nomor_surat">Nomor Surat:</label>
                         <input readonly type="text" class="form-control" id="nomor_surat" name="nomor_surat" value="<?php echo $data['nomor_surat']; ?>">
@@ -194,27 +189,28 @@ $perusahaan = $data['perusahaan'];
                     </div>
                     <h4><b><i><u>3. Data Contact :</u></i></b></h4>
                     <div class="form-group">
-                        <label for="nama_jabatan">Nama Jabatan:</label>
+                        <label for="nama_jabatan">Nama Jabatan:</label disabled>
                         <input readonly type="text" class="form-control" id="nama_jabatan" name="nama_jabatan" value="<?php echo $data['nama_jabatan']; ?>">
                     </div>
                     <div class="form-group">
-                        <label for="jabatan">Jabatan:</label>
-                        <select name="jabatan" id="jabatan" class="form-select" required disabled>
-                        <option value="Manager Operation" <?php if ($data['jabatan'] == "Manager Operation") { echo "selected"; } ?>disabled>Manager Operation</option>
-                    </select>
-                    </div>
+    <label for="jabatan">Jabatan:</label>
+    <!-- Dropdown yang disembunyikan -->
+    <select name="jabatan" id="jabatan" class="form-select" required style="display: none;">
+        <option value="Manager Operation" <?php if ($data['jabatan'] == "Manager Operation") { echo "selected"; } ?>>Manager Operation</option>
+    </select>
+    <!-- Input text untuk menampilkan nilai -->
+    <input type="text" class="form-control" value="<?php echo $data['jabatan']; ?>" readonly>
+</div>
                     <div class="form-group">
                         <label for="site_engineer">Site Engineer:</label>
                         <input readonly type="text" class="form-control" id="site_engineer" name="site_engineer" value="<?php echo $data['site_engineer']; ?>">
                     </div>
                     <div class="form-group">
-                        <label for="site_engineer_jabatan">Jabatan:</label>
-                    <select name="site_engineer_jabatan" id="site_engineer_jabatan" class="form-select" required disabled>
-                        <option value="Network Operation Center" <?php if ($data['site_engineer_jabatan'] == "Network Operation Center") { echo "selected"; } ?>>Network Operation Center</option>
-                        <option value="Project Manager" <?php if ($data['site_engineer_jabatan'] == "Project Manager") { echo "selected"; } ?>>Project Manager</option>
-                        <option value="Technical Support" <?php if ($data['site_engineer_jabatan'] == "Technical Support") { echo "selected"; } ?>>Technical Support</option>
-                    </select>
-                    </div>
+    <label for="site_engineer_jabatan">Jabatan:</label>
+    <!-- Input text untuk menampilkan nilai -->
+    <input type="text" name="site_engineer_jabatan" id="site_engineer_jabatan" class="form-control" value="<?php echo $data['site_engineer_jabatan']; ?>" readonly>
+</div>
+
                     <div class="form-group">
                         <label for="marketing">Marketing:</label>
                         <input readonly type="text" class="form-control" id="marketing" name="marketing" value="<?php echo $data['marketing']; ?>">

@@ -1,3 +1,9 @@
 [24-Feb-2025 08:23:11 UTC] PHP Notice:  Undefined variable: target_dir in C:\laragon\www\berita-acara\data-ba\proses-input-ba.php on line 103
 [27-Feb-2025 02:32:25 UTC] PHP Notice:  Undefined variable: target_dir in C:\laragon\www\berita-acara\data-ba\proses-edit-ba.php on line 108
 [27-Feb-2025 02:32:59 UTC] PHP Notice:  Undefined variable: target_dir in C:\laragon\www\berita-acara\data-ba\proses-edit-ba.php on line 108
+[27-Feb-2025 09:45:46 UTC] PHP Notice:  Undefined variable: target_dir in C:\laragon\www\berita-acara\data-ba\proses-input-ba.php on line 103
+[28-Feb-2025 02:49:56 UTC] PHP Notice:  Undefined variable: kondisi_tidak_tampilkan_dropdown in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 202
+[28-Feb-2025 02:50:11 UTC] PHP Notice:  Undefined variable: kondisi_tidak_tampilkan_dropdown in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 202
+[28-Feb-2025 02:50:12 UTC] PHP Notice:  Undefined variable: kondisi_tidak_tampilkan_dropdown in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 202
+[28-Feb-2025 02:50:43 UTC] PHP Notice:  Undefined variable: kondisi_tidak_tampilkan_dropdown in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 202
+[28-Feb-2025 03:18:52 UTC] PHP Notice:  Undefined variable: target_dir in C:\laragon\www\berita-acara\data-ba\proses-edit-ba.php on line 108
