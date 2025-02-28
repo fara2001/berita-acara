@@ -54,3 +54,9 @@
 [27-Feb-2025 04:02:29 UTC] PHP Notice:  Undefined variable: number_translasi in C:\laragon\www\berita-acara\edit-data.php on line 93
 [27-Feb-2025 04:02:29 UTC] PHP Notice:  Undefined variable: number_translasi in C:\laragon\www\berita-acara\edit-data.php on line 94
 [27-Feb-2025 04:03:56 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\laragon\www\berita-acara\edit-data.php on line 93
+[28-Feb-2025 03:24:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\laragon\www\berita-acara\koneksi.php:2
+Stack trace:
+#0 C:\laragon\www\berita-acara\koneksi.php(2): mysqli_connect('localhost', 'root', '', 'voip')
+#1 C:\laragon\www\berita-acara\tampil2.php(13): include('C:\\laragon\\www\\...')
+#2 {main}
+  thrown in C:\laragon\www\berita-acara\koneksi.php on line 2
