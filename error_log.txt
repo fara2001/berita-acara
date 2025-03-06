@@ -60,3 +60,15 @@ Stack trace:
 #1 C:\laragon\www\berita-acara\tampil2.php(13): include('C:\\laragon\\www\\...')
 #2 {main}
   thrown in C:\laragon\www\berita-acara\koneksi.php on line 2
+[03-Mar-2025 04:27:14 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\laragon\www\berita-acara\koneksi.php on line 2
+[03-Mar-2025 04:27:14 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\laragon\www\berita-acara\koneksi.php on line 3
+[03-Mar-2025 04:27:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in C:\laragon\www\berita-acara\tampil2.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\laragon\www\berita-acara\tampil2.php on line 17
+[03-Mar-2025 06:18:03 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\laragon\www\berita-acara\koneksi.php on line 2
+[03-Mar-2025 06:18:03 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\laragon\www\berita-acara\koneksi.php on line 3
+[03-Mar-2025 06:18:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in C:\laragon\www\berita-acara\tampil2.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\laragon\www\berita-acara\tampil2.php on line 17

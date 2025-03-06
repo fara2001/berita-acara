@@ -7,3 +7,276 @@
 [28-Feb-2025 02:50:12 UTC] PHP Notice:  Undefined variable: kondisi_tidak_tampilkan_dropdown in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 202
 [28-Feb-2025 02:50:43 UTC] PHP Notice:  Undefined variable: kondisi_tidak_tampilkan_dropdown in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 202
 [28-Feb-2025 03:18:52 UTC] PHP Notice:  Undefined variable: target_dir in C:\laragon\www\berita-acara\data-ba\proses-edit-ba.php on line 108
+[03-Mar-2025 04:27:12 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\laragon\www\berita-acara\koneksi.php on line 2
+[03-Mar-2025 04:27:12 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\laragon\www\berita-acara\koneksi.php on line 3
+[03-Mar-2025 04:27:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in C:\laragon\www\berita-acara\data-ba\lihat-ba.php:12
+Stack trace:
+#0 {main}
+  thrown in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 12
+[03-Mar-2025 04:28:20 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\laragon\www\berita-acara\koneksi.php on line 2
+[03-Mar-2025 04:28:20 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\laragon\www\berita-acara\koneksi.php on line 3
+[03-Mar-2025 04:28:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in C:\laragon\www\berita-acara\data-ba\lihat-ba.php:12
+Stack trace:
+#0 {main}
+  thrown in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 12
+[03-Mar-2025 04:34:01 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\laragon\www\berita-acara\koneksi.php on line 2
+[03-Mar-2025 04:34:01 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\laragon\www\berita-acara\koneksi.php on line 3
+[03-Mar-2025 04:34:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in C:\laragon\www\berita-acara\data-ba\lihat-ba.php:12
+Stack trace:
+#0 {main}
+  thrown in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 12
+[03-Mar-2025 06:18:01 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\laragon\www\berita-acara\koneksi.php on line 2
+[03-Mar-2025 06:18:01 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\laragon\www\berita-acara\koneksi.php on line 3
+[03-Mar-2025 06:18:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in C:\laragon\www\berita-acara\data-ba\lihat-ba.php:12
+Stack trace:
+#0 {main}
+  thrown in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 12
+[03-Mar-2025 06:18:09 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\laragon\www\berita-acara\koneksi.php on line 2
+[03-Mar-2025 06:18:09 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\laragon\www\berita-acara\koneksi.php on line 3
+[03-Mar-2025 06:18:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in C:\laragon\www\berita-acara\data-ba\lihat-ba.php:12
+Stack trace:
+#0 {main}
+  thrown in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 12
+[04-Mar-2025 02:13:23 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 139
+[04-Mar-2025 02:13:33 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 139
+[04-Mar-2025 02:13:34 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 139
+[04-Mar-2025 02:15:03 UTC] PHP Notice:  Undefined index: tanggal in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 168
+[04-Mar-2025 02:15:03 UTC] PHP Notice:  Undefined index: tanggal in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 168
+[04-Mar-2025 02:17:00 UTC] PHP Notice:  Undefined index: tanggal in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 171
+[04-Mar-2025 02:17:00 UTC] PHP Notice:  Undefined index: tanggal in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 171
+[04-Mar-2025 02:17:02 UTC] PHP Notice:  Undefined index: tanggal in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 171
+[04-Mar-2025 02:17:02 UTC] PHP Notice:  Undefined index: tanggal in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 171
+[04-Mar-2025 02:17:02 UTC] PHP Notice:  Undefined index: tanggal in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 171
+[04-Mar-2025 02:17:02 UTC] PHP Notice:  Undefined index: tanggal in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 171
+[04-Mar-2025 02:17:06 UTC] PHP Notice:  Undefined index: tanggal in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 171
+[04-Mar-2025 02:17:06 UTC] PHP Notice:  Undefined index: tanggal in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 171
+[04-Mar-2025 02:17:06 UTC] PHP Notice:  Undefined index: tanggal in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 171
+[04-Mar-2025 02:17:06 UTC] PHP Notice:  Undefined index: tanggal in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 171
+[04-Mar-2025 02:17:24 UTC] PHP Notice:  Undefined index: tanggal in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 171
+[04-Mar-2025 02:17:24 UTC] PHP Notice:  Undefined index: tanggal in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 171
+[04-Mar-2025 02:17:25 UTC] PHP Notice:  Undefined index: tanggal in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 171
+[04-Mar-2025 02:17:25 UTC] PHP Notice:  Undefined index: tanggal in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 171
+[04-Mar-2025 02:17:25 UTC] PHP Notice:  Undefined index: tanggal in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 171
+[04-Mar-2025 02:17:25 UTC] PHP Notice:  Undefined index: tanggal in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 171
+[04-Mar-2025 02:17:26 UTC] PHP Notice:  Undefined index: tanggal in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 171
+[04-Mar-2025 02:17:26 UTC] PHP Notice:  Undefined index: tanggal in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 171
+[04-Mar-2025 02:17:28 UTC] PHP Notice:  Undefined index: tanggal in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 171
+[04-Mar-2025 02:17:28 UTC] PHP Notice:  Undefined index: tanggal in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 171
+[04-Mar-2025 02:18:35 UTC] PHP Notice:  Undefined index: tanggal in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 171
+[04-Mar-2025 02:18:35 UTC] PHP Notice:  Undefined index: tanggal in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 171
+[04-Mar-2025 02:18:54 UTC] PHP Notice:  Undefined index: nomor_surat in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 167
+[04-Mar-2025 02:18:54 UTC] PHP Notice:  Undefined index: nomor_surat in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 167
+[04-Mar-2025 02:18:56 UTC] PHP Notice:  Undefined index: nomor_surat in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 167
+[04-Mar-2025 02:18:56 UTC] PHP Notice:  Undefined index: nomor_surat in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 167
+[04-Mar-2025 02:19:14 UTC] PHP Notice:  Undefined index: nomor_surat in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 167
+[04-Mar-2025 02:19:14 UTC] PHP Notice:  Undefined index: nomor_surat in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 167
+[04-Mar-2025 02:25:59 UTC] PHP Notice:  Undefined index: working order in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 168
+[04-Mar-2025 02:25:59 UTC] PHP Notice:  Undefined index: working order in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 168
+[04-Mar-2025 02:29:48 UTC] PHP Parse error:  syntax error, unexpected 'admin' (T_STRING), expecting ';' or ',' in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 152
+[04-Mar-2025 02:30:05 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 139
+[04-Mar-2025 03:40:20 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 139
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 92
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 117
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 118
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 124
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 124
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 133
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 138
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 142
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 147
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 151
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 155
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 159
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 163
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 167
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 171
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 175
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 180
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 184
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 188
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 193
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 199
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 202
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 206
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 211
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 216
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 220
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 224
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 226
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 248
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 274
+[05-Mar-2025 02:11:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 277
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 92
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 117
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 118
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 124
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 124
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 133
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 138
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 142
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 147
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 151
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 155
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 159
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 163
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 167
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 171
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 175
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 180
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 184
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 188
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 193
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 199
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 202
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 206
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 211
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 216
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 220
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 224
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 226
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 248
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 274
+[05-Mar-2025 02:11:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 277
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 92
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 117
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 118
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 124
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 124
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 133
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 138
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 142
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 147
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 151
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 155
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 159
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 163
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 167
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 171
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 175
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 180
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 184
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 188
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 193
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 199
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 202
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 206
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 211
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 216
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 220
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 224
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 226
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 248
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 274
+[05-Mar-2025 02:11:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 277
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 92
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 117
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 118
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 124
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 124
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 133
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 138
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 142
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 147
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 151
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 155
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 159
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 163
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 167
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 171
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 175
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 180
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 184
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 188
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 193
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 199
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 202
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 206
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 211
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 216
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 220
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 224
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 226
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 236
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 248
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 274
+[05-Mar-2025 02:11:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\berita-acara\data-ba\lihat-ba-detail.php on line 277
+[05-Mar-2025 03:26:19 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in C:\laragon\www\berita-acara\data-ba\lihat-ba.php on line 123

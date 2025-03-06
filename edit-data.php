@@ -35,7 +35,6 @@ if (isset($_POST['submit'])) {
     $server = $_POST['server'];
     $status = $_POST['status'];
 
-
     // Query untuk update data
     $update_query = "UPDATE data_nomor SET 
         geo_number = '$geo_number', 
@@ -72,58 +71,54 @@ $conn->close();
     <div class="container mt-5">
         <h1 class="mb-4">Edit Data Nomor</h1>
         <form action="" method="POST">
-            <div class="mb-3">
-                <label for="geo_number" class="form-label">Geo Number:</label>
-                <input type="text" id="geo_number" name="geo_number" value="<?php echo $row['geo_number']; ?>" class="form-control" required>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <label for="geo_number" class="form-label">Geo Number:</label>
+                        <input type="text" id="geo_number" name="geo_number" value="<?php echo $row['geo_number']; ?>" class="form-control" required>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="toll_free_number" class="form-label">Toll Free Number:</label>
+                        <input type="text" id="toll_free_number" name="toll_free_number" value="<?php echo $row['toll_free_number']; ?>" class="form-control" required>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="number_translasi" class="form-label">Number Translasi:</label>
+                        <select id="number_translasi" name="number_translasi" class="form-select" required>
+                            <option value="Yes" <?php echo ($row['number_translasi'] == 'Yes') ? 'selected' : ''; ?>>Yes</option>
+                            <option value="No" <?php echo ($row['number_translasi'] == 'No') ? 'selected' : ''; ?>>No</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <label for="customer" class="form-label">Customer:</label>
+                        <input type="text" id="customer" name="customer" value="<?php echo $row['customer']; ?>" class="form-control" required>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="tanggal_aktif" class="form-label">Tanggal Aktif:</label>
+                        <input type="date" id="tanggal_aktif" name="tanggal_aktif" value="<?php echo $row['tanggal_aktif']; ?>" class="form-control">
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="server" class="form-label">Server:</label>
+                        <input type="text" id="server" name="server" value="<?php echo $row['server']; ?>" class="form-control" required>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="status" class="form-label">Status:</label>
+                        <select id="status" name="status" class="form-select" required>
+                            <option value="Aktif" <?php if ($row['status'] == 'Aktif') echo 'selected'; ?>>Aktif</option>
+                            <option value="Available" <?php if ($row['status'] == 'Available') echo 'selected'; ?>>Available</option>
+                        </select>
+                    </div>
+                </div>
             </div>
-            
-            <div class="mb-3">
-                <label for="toll_free_number" class="form-label">Toll Free Number:</label>
-                <input type="text" id="toll_free_number" name="toll_free_number" value="<?php echo $row['toll_free_number']; ?>" class="form-control" required>
-            </div>
-            
-            <?php
-// Simpan nilai yang dipilih sebelumnya (jika ada)
-// $number_translasi = $_POST['number_translasi'] ?? 'No'; // Default 'No' jika form belum dikirim
-?>
-
-<div class="mb-3">
-    <label for="number_translasi" class="form-label">Number Translasi:</label>
-    <select id="number_translasi" name="number_translasi" class="form-select" required>
-        <option value="Yes" <?php echo ($row['number_translasi'] == 'Yes') ? 'selected' : ''; ?>>Yes</option>
-        <option value="No" <?php echo ($row['number_translasi'] == 'No') ? 'selected' : ''; ?>>No</option>
-    </select>
-</div>
-
-            <div class="mb-3">
-                <label for="customer" class="form-label">Customer:</label>
-                <input type="text" id="customer" name="customer" value="<?php echo $row['customer']; ?>" class="form-control" required>
-            </div>
-            
-            <div class="mb-3">
-                <label for="tanggal_aktif" class="form-label">Tanggal Aktif:</label>
-                <input type="date" id="tanggal_aktif" name="tanggal_aktif" value="<?php echo $row['tanggal_aktif']; ?>" class="form-control">
-            </div>
-            
-            <div class="mb-3">
-                <label for="server" class="form-label">Server:</label>
-                <input type="text" id="server" name="server" value="<?php echo $row['server']; ?>" class="form-control" required>
-            </div>
-            
-            <div class="mb-3">
-                <label for="status" class="form-label">Status:</label>
-                <select id="status" name="status" class="form-select" required>
-                    <option value="Aktif" <?php if ($row['status'] == 'Aktif') echo 'selected'; ?>>Aktif</option>
-                    <option value="Available" <?php if ($row['status'] == 'Available') echo 'selected'; ?>>Available</option>
-                </select>
-            </div>
-            
             <button type="submit" name="submit" class="btn btn-primary">Perbarui Data</button>
+            <a href="tampil2.php" class="btn btn-secondary">Kembali ke Daftar</a>
         </form>
-        <br>
-        <a href="tampil2.php" class="btn btn-secondary">Kembali ke Daftar</a>
     </div>
-
-    <!-- Bootstrap JS and dependencies (optional) -->
 </body>
 </html>

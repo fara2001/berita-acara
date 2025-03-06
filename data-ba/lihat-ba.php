@@ -25,9 +25,8 @@ $cekRole = $rowSession['role'];
     <style>
         * { font-family: "Trebuchet MS"; }
         h1 { text-transform: uppercase; }
-        table { border: 1px solid #ddeeee; border-collapse: collapse; border-spacing: 0; width: 90%; margin: 10px auto; }
-        th, td { border: 1px solid #ddeeee; padding: 20px; text-align: left; }
         .pencet:hover { background-color: cyan; }
+        .profile-img { width: 40px; height: 40px; object-fit: cover; cursor: pointer; }
     </style>
     <script>
         function confirmDelete() {
@@ -37,7 +36,7 @@ $cekRole = $rowSession['role'];
         // JavaScript untuk ceklis semua
         document.addEventListener("DOMContentLoaded", function() {
             document.getElementById('check-all').addEventListener('click', function(event) {
-                let checkboxes = document.querySelectorAll ('input[name="id[]"]');
+                let checkboxes = document.querySelectorAll('input[name="id[]"]');
                 checkboxes.forEach(checkbox => checkbox.checked = event.target.checked);
             });
         });
@@ -59,71 +58,56 @@ $cekRole = $rowSession['role'];
                     <li class="nav-item"><a class="nav-link active" href="../user/index.php">Data User</a></li>
                     <?php } ?>
                 </ul>
-                <!-- <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="../logout.php"><button type="button" class="btn btn-danger">Logout</button></a></li>
-                </ul> -->
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <div class="d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#modalProfile">
+                            <img src="../img/naruto.png" alt="Profile" class="rounded-circle profile-img">
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../logout.php"><button type="button" class="btn btn-danger">Logout</button></a>
+                    </li>
+                </ul>
             </div>
-<?php
-// Tambahkan query untuk mengambil nama pengguna dari database
-$queryProfile = "SELECT username FROM user WHERE username = '$cekUsername'";
-$resultProfile = $conn->query($queryProfile);
-$rowProfile = $resultProfile->fetch_assoc();
-$namaPengguna = $rowProfile['username'];
-?>
-
-<!-- Tambahkan elemen lingkaran profil di navbar -->
-<ul class="navbar-nav ms-auto">
-    <li class="nav-item">
-        <div class="d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#modalProfile">
-            <img src="../img/naruto.png" alt="Profile" class="rounded-circle" style="width: 40px; height: 40px; object-fit: cover; cursor: pointer;">
-        </div>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="../logout.php"><button type="button" class="btn btn-danger">Logout</button></a>
-    </li>
-</ul>
-
-<!-- Modal -->
-<div class="modal fade" id="modalProfile" tabindex="-1" aria-labelledby="modalProfileLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="modalProfileLabel">Profile</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <!-- Tambahkan elemen foto profil di kiri dengan ukuran sedang -->
-                <div class="d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#modalProfile">
-                    <img src="../img/naruto.png" alt="Profile" class="rounded-circle" style="width: 40px; height: 40px; object-fit: cover; cursor: pointer;">
-                </div>
-                <br>
-                <p>Username: <?php echo $namaPengguna; ?></p>
-                <p>Role: <?php echo $cekRole; ?></p>
-                <a href="../user/ganti-password.php" class="btn btn-danger">Ganti Password</a>
-            </div>
-        </div>
-    </div>
-</div>
         </div>
     </nav>
 
+    <!-- Modal Profile -->
+    <div class="modal fade" id="modalProfile" tabindex="-1" aria-labelledby="modalProfileLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalProfileLabel">Profile</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex align-items-center">
+                        <img src="../img/naruto.png" alt="Profile" class="rounded-circle profile-img">
+                    </div>
+                    <br>
+                    <p>Username: <?php echo $cekUsername; ?></p>
+                    <p>Role: <?php echo $cekRole; ?></p>
+                    <a href="../user/ganti-password.php" class="btn btn-danger">Ganti Password</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Container -->
-    <div class="container">
-        <h1 align="center">Lihat Data BA</h1>
+    <div class="container mt-4">
+        <h1 class="text-center mb-4">Lihat Data BA</h1>
         
         <!-- Form Pencarian -->
-        <form method="GET" action="lihat-ba.php" class="d-flex">
+        <form method="GET" action="lihat-ba.php" class="d-flex mb-3">
             <input class="form-control me-2" type="search" name="cari" placeholder="Cari BA, Nomor Surat, atau Perusahaan" aria-label="Search" value="<?php echo isset($_GET['cari']) ? $_GET['cari'] : ''; ?>">
-            <button class="btn btn-success" style="margin-right: 5px;" type="submit">Search</button>
+            <button class="btn btn-success me-2" type="submit">Search</button>
             <button class="btn btn-secondary" type="button" onclick="location.href='lihat-ba.php'">Reset</button>
         </form>
-        <br>
 
         <?php if ($cekRole == "admin" || $cekRole == "editor") { ?>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-3">
             <a href="create-ba.php" class="btn btn-primary">Tambah Data</a>
         </div>
-        <br>
         <?php } ?>
 
         <?php
@@ -133,11 +117,12 @@ $namaPengguna = $rowProfile['username'];
         $limit = 10;
         $offset = ($halaman - 1) * $limit;
 
-        $query = "SELECT id, ba, nomor_surat, tanggal, perusahaan FROM ba WHERE ba LIKE '%$cari%' OR nomor_surat LIKE '%$cari%' OR perusahaan LIKE '%$cari%' ORDER BY id DESC LIMIT $limit OFFSET $offset";
+        $query = "SELECT id, ba, nomor_surat, working_order, jenis_layanan, perusahaan FROM ba WHERE ba LIKE '%$cari%' OR nomor_surat LIKE '%$cari%' OR perusahaan LIKE '%$cari%' ORDER BY id DESC LIMIT $limit OFFSET $offset";
         $result = $conn->query($query);
 
         if ($result->num_rows > 0) {
-            echo "<form method='POST' action='bulk-delete.php'>
+            echo "<div class='table-responsive'>
+                    <form method='POST' action='bulk-delete.php'>
                     <table class='table table-bordered table-hover'>
                     <thead>
                         <tr>";
@@ -147,7 +132,8 @@ $namaPengguna = $rowProfile['username'];
                         echo "<th style='width: 2%;'>No</th>
                             <th>BA</th>
                             <th>Nomor Surat</th>
-                            <th>Tanggal</th>
+                            <th>Working Order No</th>
+                            <th>jenis layanan</th>
                             <th>Perusahaan</th>";
                         if ($cekRole == "admin" || $cekRole == "editor") {
                             echo "<th>Aksi</th>";
@@ -165,7 +151,8 @@ $namaPengguna = $rowProfile['username'];
                 echo "<td style='text-align: center'>" . $no . "</td>
                     <td>" . $row['ba'] . "</td>
                     <td>" . $row['nomor_surat'] . "</td>
-                    <td>" . $row['tanggal'] . "</td>
+                    <td>" . $row['working_order'] . "</td>
+                    <td>" . $row['jenis_layanan'] . "</td>
                     <td>" . $row['perusahaan'] . "</td>
                     <td>
                         <a style='margin-right: 5px' href='lihat-ba-detail.php?id=" . $row['id'] . "' class='btn btn-success'>Lihat</a>";
@@ -181,7 +168,7 @@ $namaPengguna = $rowProfile['username'];
                         <button type='submit' class='btn btn-danger' name='hapus-check' onclick='return confirmDelete();'>Hapus yang dipilih</button>
                       </td></tr>";
             }
-            echo "</tbody></table></form>";
+            echo "</tbody></table></form></div>";
         } else {
             echo "<p class='text-center'>Data tidak ditemukan</p>";
         }
@@ -213,7 +200,6 @@ $namaPengguna = $rowProfile['username'];
 
         echo "</ul></nav>";
         ?>
-
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
